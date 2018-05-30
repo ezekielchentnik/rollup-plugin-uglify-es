@@ -1,3 +1,7 @@
+DEPRECATED, see [rollup-plugin-terser](https://github.com/TrySound/rollup-plugin-terser) instead.
+
+
+
 # rollup-plugin-uglify-es [![Travis Build Status][travis-img]][travis]
 
 [travis-img]: https://travis-ci.org/ezekielchentnik/rollup-plugin-uglify-es.svg
