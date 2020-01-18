@@ -3,7 +3,7 @@ import { minify } from 'uglify-es'
 export default function uglify (options = {}) {
 	return {
 		name: 'uglify',
-		transformBundle (code) {
+		renderChunk (code) {
 			const result = minify(
 				code,
 				Object.assign({ sourceMap: { url: 'out.js.map' } }, options ) // force sourcemap creation
